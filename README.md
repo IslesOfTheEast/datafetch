@@ -6,4 +6,5 @@ A screenfetch clone written in python. A WIP currently so there's an awful lot o
 ### todo list:
 
 * ascii art for linux distributions
-* information about the desktop's resolution, kernel, gpu and terminal emulator 
+* information about the desktop's resolution, kernel, gpu and terminal emulator
+* add color to the ascii art
