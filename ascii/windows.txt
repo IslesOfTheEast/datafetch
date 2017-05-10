@@ -5,8 +5,8 @@ llllllllllllll  lllllllllllllllllll		OS: {}
 llllllllllllll  lllllllllllllllllll		Processor: {}
 llllllllllllll  lllllllllllllllllll		CPU Usage (%): {}
 llllllllllllll  lllllllllllllllllll		CPU Cores: {}
-llllllllllllll  lllllllllllllllllll		RAM Usage: {}
-								        RAM Usage (%): {}
+llllllllllllll  lllllllllllllllllll		RAM Usage: {}{}
+								        UPTIME: {}
 llllllllllllll  lllllllllllllllllll
 llllllllllllll  lllllllllllllllllll
 llllllllllllll  lllllllllllllllllll
