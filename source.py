@@ -1,5 +1,6 @@
 import os
 import platform
+import socket
 import psutil
 
 	
@@ -18,7 +19,7 @@ def get_info():
 		ascii_art = open("ascii\windows.txt", 'r')
 		content = ascii_art.read()
 		print(content.format(hostname, user, system, processor, cpu_usage, cpu_count, 
-			str(mem.total//(1024**2)) + "/" + str(mem.used//(1024**2)) + " MB", mem.percent))
+			str(mem.used//(1024**2)) + "/" + str(mem.total//(1024**2)) + " MB", mem.percent))
 
 	
 

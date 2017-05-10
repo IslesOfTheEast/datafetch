@@ -3,10 +3,10 @@
 ,cclllllllllll  lllllllllllllllllll		Username: {}
 llllllllllllll  lllllllllllllllllll		OS: {}
 llllllllllllll  lllllllllllllllllll		Processor: {}
-llllllllllllll  lllllllllllllllllll		CPU Usage: {}
+llllllllllllll  lllllllllllllllllll		CPU Usage (%): {}
 llllllllllllll  lllllllllllllllllll		CPU Cores: {}
 llllllllllllll  lllllllllllllllllll		RAM Usage: {}
-										RAM Usage (%): {}
+								        RAM Usage (%): {}
 llllllllllllll  lllllllllllllllllll
 llllllllllllll  lllllllllllllllllll
 llllllllllllll  lllllllllllllllllll
