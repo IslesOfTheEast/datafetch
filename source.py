@@ -1,8 +1,8 @@
+from colored import fg
 import os
 import platform
 import socket
 import psutil
-import colored
 import cpuinfo
 import calendar
 import time
@@ -57,7 +57,7 @@ def get_info():
 		content = ascii_art.read()
 		print(content.format(hostname, user, (os + " " + version), cpu_info['brand'], cpu_usage, cpu_count, 
 			str(mem.used//(1024**2)) + "/" + str(mem.total//(1024**2)) + " MB (", str(mem.percent) + "%)", final, 
-			str(disk.total//(1024**2)) + "/" + str(disk.used//(1024**2)), " MB (" + str(disk.percent) + "%)"))
+			str(disk.used//(1024**2)) + "/" + str(disk.total//(1024**2)), " MB (" + str(disk.percent) + "%)"))
 
 get_info()
 
