@@ -1,12 +1,12 @@
   
-      ...,,+:;  cllllllllllllllllll		{}
-,cclllllllllll  lllllllllllllllllll		Username: {}
-llllllllllllll  lllllllllllllllllll		OS: {}
+      ...,,+:;  cllllllllllllllllll		{}{}
+,cclllllllllll  lllllllllllllllllll		OS: {}
 llllllllllllll  lllllllllllllllllll		Processor: {}
 llllllllllllll  lllllllllllllllllll		CPU Usage (%): {}
 llllllllllllll  lllllllllllllllllll		CPU Cores: {}
 llllllllllllll  lllllllllllllllllll		RAM Usage: {}{}
-										UPTIME: {}
+llllllllllllll  lllllllllllllllllll		UPTIME: {}
+										
 llllllllllllll  lllllllllllllllllll		Disk Usage: {}{}
 llllllllllllll  lllllllllllllllllll
 llllllllllllll  lllllllllllllllllll

@@ -11,7 +11,7 @@ cpu_info = cpuinfo.get_cpu_info()
 user = os.getlogin()
 hostname = socket.gethostname()
 
-os = platform.platform()
+os = platform.system()
 version = platform.release()
 
 cpu_usage = psutil.cpu_percent(interval=1)
@@ -55,7 +55,7 @@ def get_info():
 	if platform.system() == "Windows": 
 		ascii_art = open("ascii\windows.txt", 'r')
 		content = ascii_art.read()
-		print(content.format(hostname, user, (os + " " + version), cpu_info['brand'], cpu_usage, cpu_count, 
+		print(content.format(hostname + "@", user, os + " " + version, cpu_info['brand'], cpu_usage, cpu_count, 
 			str(mem.used//(1024**2)) + "/" + str(mem.total//(1024**2)) + " MB (", str(mem.percent) + "%)", final, 
 			str(disk.used//(1024**2)) + "/" + str(disk.total//(1024**2)), " MB (" + str(disk.percent) + "%)"))
 
